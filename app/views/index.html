@@ -1,0 +1,5 @@
+<ul>
+    <li ng-repeat="route in allRoutes" ng-if="!route.abstract && route.url">
+        <a ng-href="{{route.url}}">{{route.templateUrl}}</a>
+    </li>
+</ul>
